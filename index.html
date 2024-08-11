@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="turn-container">
+        <h3>Turn For</h3>
+        <div class="turn-box align">X</div>
+        <div class="turn-box align">O</div>
+        <div class="bg"></div>
+    </div>
+    <div class="grid-options">
+        <label for="grid-size">Choose Grid Size:</label>
+        <select id="grid-size">
+            <option value="3">3x3</option>
+            <option value="4">4x4</option>
+            <option value="5">5x5</option>
+        </select>
+    </div>
+    <div class="main-grid">
+        <div class="box align">0</div>
+        <div class="box align">1</div>
+        <div class="box align">2</div>
+        <div class="box align">3</div>
+        <div class="box align">4</div>
+        <div class="box align">5</div>
+        <div class="box align">6</div>
+        <div class="box align">7</div>
+        <div class="box align">8</div>
+    </div>
+    <h2 id="results"></h2>
+    <div class="control-buttons">
+        <button id="undo">Undo</button>
+        <button id="redo">Redo</button>
+    </div>
+    <button id="play-again">Play Again</button>
+    <footer>
+        <p>&copy; Chandu Bhogapurapu. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
